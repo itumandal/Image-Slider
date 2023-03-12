@@ -1,0 +1,50 @@
+.product-carousel {
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+}
+
+.product-carousel > h2 {
+  position: absolute;
+}
+
+.product-container {
+  padding: 0 10px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.next-btn {
+  right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.436);
+  border-radius: 10px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
